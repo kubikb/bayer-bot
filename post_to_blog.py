@@ -49,9 +49,9 @@ def main(argv):
 	try:
 		# Load model
 		model = textgenrnn(
-			weights_path="model/bayer_bot_weights.hdf5",
-			vocab_path="model/bayer_bot_vocab.json",
-			config_path="model/bayer_bot_config.json"
+			weights_path="bayer_bot_weights.hdf5",
+			vocab_path="bayer_bot_vocab.json",
+			config_path="bayer_bot_config.json"
 		)
 		
 		# Randomly generate paragraphs with varying lengths
